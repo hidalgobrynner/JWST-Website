@@ -1,0 +1,107 @@
+h1{
+	border: solid;
+	font-size: 5rem;
+	font-weight: bolder;
+	
+}
+
+h3{
+	
+	font-size: 2rem;
+	font-weight: bolder;
+	
+
+}
+
+h5{
+	color: #F4F4F4;
+}
+
+.background:hover{
+	background-color: rgba(0, 0, 0, 0.3) ;
+
+}
+
+img{
+	border: solid yellowgreen;
+	border-width: 2px;
+	margin: 10px;
+	border-radius: 15px;
+	position: fixed;
+}
+
+/**/
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #F4F4F4;
+	text-transform: capitalize;
+
+	
+/*Making the background image adjust its size with browser*/
+	background-image: url(jwst.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+
+}
+/*Centering the content of the page*/
+.container{
+	display: flex;
+	flex-wrap: wrap ;
+	justify-content: center;
+}
+
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid white;
+    max-width: 65px;
+    opacity: 0.9; 
+ }
+
+ .buffer{
+ 	height: 3rem;
+
+ }
+
+ .buffer2{
+ 	height: 2.5rem;
+ }
+
+ .buffer3{
+ 	height: 2rem;
+ }
+
+ .btn {
+  font-weight: 700;
+  border-radius: 300px;
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #494949;
+  border-color: yellowgreen;
+  opacity: 0.9;
+}
+
+.btn-secondary:hover {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  border-width: 1.01px;
+}
+
+.dropdown-menu{
+
+	font-size: 1rem;
+	color: black;
+	opacity: 0.8;
+}
+
